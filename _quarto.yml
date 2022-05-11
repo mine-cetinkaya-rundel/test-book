@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "test-book"
+  author-meta: "Jane Doe"
+  date-meta: today
+  description-meta: |
+    This is the book description.
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - book.scss
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

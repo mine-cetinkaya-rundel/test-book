@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "test-book",
+    "section": "",
+    "text": "This is a Quarto book.\n❌ Find me on GitHub ?mine-cetinkaya-rundel.\n✅ Find me on GitHub @mine-cetinkaya-rundel.\n\n\n(idontwork?)\n(idontwork?)\n?i-dontwork\n?i-dontwork\n\n\n\n@iwork\n@iwork"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  options",
+    "section": "",
+    "text": "knitr::opts_chunk$set(\n  comment = \"#>\",\n  collapse = TRUE,\n  # cache = TRUE,\n  fig.retina = 2,\n  fig.width = 6,\n  fig.asp = 2/3,\n  fig.show = \"hold\"\n)"
+  },
+  {
+    "objectID": "intro.html#out-width",
+    "href": "intro.html#out-width",
+    "title": "1  options",
+    "section": "1.1 out-width",
+    "text": "1.1 out-width\n\nplot(cars)\n\n\n\n\n\nplot(cars)\n\n\n\n\n\nplot(cars)\n\n\n\n\n\nplot(cars)\n\n\n\n\n\nplot(cars)"
+  },
+  {
+    "objectID": "intro.html#fig-asp",
+    "href": "intro.html#fig-asp",
+    "title": "1  options",
+    "section": "1.2 ",
+    "text": "1.2 \n\nplot(cars, main = \"fig-asp: 2, works\")\n\n\n\n\n\nplot(cars, main = \"fig-asp: 6/3, doesn't work\")\n\n\n\n\n\nplot(cars, main = \"fig.asp = 6/3, works\")"
+  },
+  {
+    "objectID": "summary.html#layout-ncol",
+    "href": "summary.html#layout-ncol",
+    "title": "2  Some section titles",
+    "section": "2.2 layout-ncol",
+    "text": "2.2 layout-ncol"
+  },
+  {
+    "objectID": "summary.html#fig-alt",
+    "href": "summary.html#fig-alt",
+    "title": "2  Some section titles",
+    "section": "2.3 ",
+    "text": "2.3"
+  },
+  {
+    "objectID": "summary.html#tbl-cap",
+    "href": "summary.html#tbl-cap",
+    "title": "2  Some section titles",
+    "section": "2.4 ",
+    "text": "2.4"
+  },
+  {
+    "objectID": "summary.html#fig-hello",
+    "href": "summary.html#fig-hello",
+    "title": "2  Some section titles",
+    "section": "2.5 ",
+    "text": "2.5"
+  },
+  {
+    "objectID": "summary.html#eqn-clt",
+    "href": "summary.html#eqn-clt",
+    "title": "2  Some section titles",
+    "section": "2.6 eqn-clt",
+    "text": "2.6 eqn-clt"
+  }
+]

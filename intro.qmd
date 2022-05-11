@@ -1,0 +1,63 @@
+```{r}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  # cache = TRUE,
+  fig.retina = 2,
+  fig.width = 6,
+  fig.asp = 2/3,
+  fig.show = "hold"
+)
+```
+
+# options
+
+## out-width
+
+```{r}
+#| out-width: 100px
+
+plot(cars)
+```
+
+```{r}
+#| out-width: 500px
+
+plot(cars)
+```
+
+```{r}
+#| out-width: "50%"
+
+plot(cars)
+```
+
+```{r}
+#| out-width: "90%"
+
+plot(cars)
+```
+
+```{r}
+#| out-width: NULL
+
+plot(cars)
+```
+
+## fig-asp
+
+```{r}
+#| fig-asp: 2
+
+plot(cars, main = "fig-asp: 2, works")
+```
+
+```{r}
+#| fig-asp: 6/3
+
+plot(cars, main = "fig-asp: 6/3, doesn't work")
+```
+
+```{r fig.asp = 6/3}
+plot(cars, main = "fig.asp = 6/3, works")
+```

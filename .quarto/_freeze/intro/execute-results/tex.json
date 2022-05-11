@@ -1,0 +1,18 @@
+{
+  "hash": "4d58a6133bb9eb3ad6981cb37c28aeec",
+  "result": {
+    "markdown": "# Introduction\n\n::: status\n\n\n::: {.rmdnote}\nYou are reading the work-in-progress second edition of R for Data Science. This chapter is undergoing heavy restructuring and may be confusing or incomplete. You can find the complete first edition at <https://r4ds.had.co.nz>.\n:::\n\n\n:::\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

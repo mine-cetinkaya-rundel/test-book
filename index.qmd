@@ -1,0 +1,23 @@
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+❌ Find me on GitHub [@mine-cetinkaya-rundel](https://github.com/mine-cetinkaya-rundel).
+
+✅ Find me on GitHub [\@mine-cetinkaya-rundel](https://github.com/mine-cetinkaya-rundel).
+
+## Don't work
+
+@idontwork
+
+[@idontwork](https://www.google.com)
+
+@i-dontwork
+
+[@i-dontwork](https://www.google.com)
+
+## Work
+
+\@iwork
+
+[\@iwork](https://www.google.com)

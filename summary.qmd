@@ -1,0 +1,13 @@
+# Some section titles
+
+## out-width
+
+## layout-ncol
+
+## fig-alt
+
+## tbl-cap
+
+## fig-hello
+
+## eqn-clt

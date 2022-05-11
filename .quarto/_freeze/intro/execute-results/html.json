@@ -1,0 +1,16 @@
+{
+  "hash": "501830cfe83c71f1ac0f9b5d418fcc5e",
+  "result": {
+    "markdown": "::: {.cell}\n\n```{.r .cell-code}\nknitr::opts_chunk$set(\n  comment = \"#>\",\n  collapse = TRUE,\n  # cache = TRUE,\n  fig.retina = 2,\n  fig.width = 6,\n  fig.asp = 2/3,\n  fig.show = \"hold\"\n)\n```\n:::\n\n\n# options\n\n## out-width\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-2-1.png){width=100px}\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-3-1.png){width=500px}\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-4-1.png){width=50%}\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-5-1.png){width=90%}\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-6-1.png){width=576}\n:::\n:::\n\n\n## fig-asp\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars, main = \"fig-asp: 2, works\")\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-7-1.png){width=576}\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars, main = \"fig-asp: 6/3, doesn't work\")\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-8-1.png){width=576}\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars, main = \"fig.asp = 6/3, works\")\n```\n\n::: {.cell-output-display}\n![](intro_files/figure-html/unnamed-chunk-9-1.png){width=576}\n:::\n:::",
+    "supporting": [
+      "intro_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}
